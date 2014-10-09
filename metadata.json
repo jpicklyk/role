@@ -2,13 +2,13 @@
   "author": "Jeff Picklyk",
   "version": "0.1.0",
   "license": "Apache 2.0",
-  "source": "none",
+  "source": "https://github.com/jpicklyk/role",
   "name": "jpicklyk-role",
   "summary": "Role module for roles and profiles",
   
   "dependencies": [
     {
-      "name": "puppetlabs-stdlib",
+      "name": "puppetlabs/stdlib",
       "version_requirement": ">= 1.0.0"
     }
   ]
