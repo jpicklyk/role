@@ -3,5 +3,5 @@ class role::exa {
   #contain profile::domain_member
   #contain profile::exchange
   #Ordering execution
-  Class['profile::base'] -> Class['profile::domain_member'] #-> Class['profile::exchange']
+  #Class['profile::base'] -> Class['profile::domain_member'] #-> Class['profile::exchange']
 }
