@@ -1,5 +1,5 @@
 class role::dc {
-  include profile::base  # All roles should have the base profile
-  include profile::active_directory
-  include profile::dns
+  contain profile::base  # All roles should have the base profile
+  contain profile::active_directory
+  contain profile::dns
 }
