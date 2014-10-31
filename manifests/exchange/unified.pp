@@ -3,5 +3,5 @@ class role::exchange::unified {
   contain profile::domain_member
   contain profile::exchange::unified
   #Ordering execution
-  Class['profile::base'] -> Class['profile::domain_member'] -> Class['profile::exchange::unified']
+  Class['profile::base'] -> Class['profile::domain_member'] -> Class['profile::exchange']
 }
