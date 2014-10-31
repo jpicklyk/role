@@ -1,7 +1,7 @@
 class role::exchange::mailbox {
   contain profile::base
   contain profile::domain_member
-  contain profile::exchange::mailbox
+  contain profile::exchange
   #Ordering execution
   Class['profile::base'] -> Class['profile::domain_member'] -> Class['profile::exchange']
 }
